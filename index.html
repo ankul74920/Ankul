@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Website Designer and FrontEnd Developer</title>
+    <link rel="shortcut icon" href="./assets/image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.0/css/foundation.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script class="cssdeck" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body>
+    <header class="main_header_section header-sticky">
+        <div class="container">
+            <div class="row web-view">
+                <div class="col-md-12">
+                    <div class="header_box web-view">
+                        <div class="header_left">
+                            <a href="#home" class="logo_show">
+                                <img src="./assets/image/ak-logo.svg" alt="logo">
+                                <div class="logo_text_box">
+                                    <h3>Ankul Kushwaha</h3>
+                                    <p>FrontEnd Developer</p>
+                                </div>
+                            </a>
+                            <a href="#home" class="logo_hide">
+                                <div class="hide_logo_box">
+                                    <img src="./assets/image/ak-logo1.svg" alt="logo">
+                                    <div class="logo_text_box1">
+                                        <h3>Ankul Kushwaha</h3>
+                                        <p>FrontEnd Developer</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="header_right">
+                            <ul class="header_menu">
+                                <li>
+                                    <a href="#home">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#about">About</a>
+                                </li>
+                                <li>
+                                    <a href="#skill">Skills</a>
+                                </li>
+                                <li>
+                                    <a href="#services">Service</a>
+                                </li>
+                                <li>
+                                    <a href="#project">Projects</a>
+                                </li>
+                                <li>
+                                    <a href="#contact">Contact</a>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a class="my_cv_btn" href="./assets/image/Ankul-kumar.pdf" download>
+                                            DOWNLOAD MY CV
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-view">
+                <div class="row">
+                    <div class="col-md-8 col-sm-10 col-10">
+                        <div class="header_left">
+                            <a href="#home" class="logo_show">
+                                <img src="./assets/image/ak-logo.svg" alt="logo">
+                                <div class="logo_text_box">
+                                    <h3>Ankul Kushwaha</h3>
+                                    <p>FrontEnd Developer</p>
+                                </div>
+                            </a>
+                            <a href="#home" class="logo_hide">
+                                <div class="hide_logo_box">
+                                    <img src="./assets/image/ak-logo1.svg" alt="logo">
+                                    <div class="logo_text_box1">
+                                        <h3>Ankul Kushwaha</h3>
+                                        <p>FrontEnd Developer</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-2 col-2 text-right">
+                        <div id="mySidenav" class="sidenav">
+                            <div class="responsive-menu-box sidebar-second-container">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                                <div class="header_right">
+                                    <ul class="header_menu mobile_header_menu">
+                                        <li>
+                                            <a href="#home">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="#about">About</a>
+                                        </li>
+                                        <li>
+                                            <a href="#skill">Skills</a>
+                                        </li>
+                                        <li>
+                                            <a href="#services">Service</a>
+                                        </li>
+                                        <li>
+                                            <a href="#project">Projects</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#contact">Contact</a>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <a class="my_cv_btn_mob" href="./assets/image/Ankul-kumar.pdf" download>
+                                                    DOWNLOAD MY CV
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <span class="responsive-icon" style="font-size:30px;cursor:pointer"
+                            onclick="openNav()">&#9776;</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="all_section_box">
+        <div class="home_main_section Ac_menu" id="home">
+            <div class="container">
+                <div class="row" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="col-md-12 col-lg-6 col-sm-12 col-12">
+                        <div class="home_left_section">
+                            <div>
+                                <h3>Hello there...</h3>
+                                <h1>Ankul Kushwaha</h1>
+                                <h4 class="FrontEnd">FrontEnd Developer || Web Designer</h4>
+                                <div class="text_animation_box">
+                                    <div class="iam_text">I Am Passionate :</div>
+                                    <div class="text_animation"></div>
+                                </div>
+                                <p class="text">Transform Your Online Presence with Expert Website Design: Custom,
+                                    Creative, Website and User-Centric Solutions for Businesses of All Sizes</p>
+                                <div class="btn_box">
+                                    <a href="#project" class="myWork_btn">MY WORK</a>
+                                    <a href="#contact" class="contact_btn">Contact Us</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6 col-sm-10 col-12">
+                        <div class="home_right_section">
+                            <img src="./assets/image/my-img2.png" alt="Website Development">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_about_section Ac_menu" id="about">
+            <div class="container">
+                <div class="row" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="col-md-12">
+                        <div class="sub_heading_box">
+                            <h2 class="sub_heading"><span class="heading_border">ABOU</span>T ME</h2>
+                            <p class="sub_text">Crafting Custom Websites: Expert Design & Development for Seamless User
+                                Experiences and Powerful Online Presence</p>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-lg-5 col-sm-12 col-12">
+                        <div class="about_ledt_box">
+                            <img src="./assets/image/about-img1.png" alt="About Us">
+                            <div class="about_link_box">
+                                <a target="_blank" class="facebook"
+                                    href="https://www.facebook.com/profile.php?id=100070726360153&mibextid">
+                                    <i class="fa-brands facebookIcon fa-facebook-f"></i></a>
+                                <a target="_blank" class="facebook"
+                                    href="https://www.linkedin.com/in/ankul-kushwaha-86a242308"> <i
+                                        class="fa-brands fa-linkedin-in"></i></a>
+                                <a target="_blank" class="facebook" href="https://www.instagram.com/ankul_kushwaha42">
+                                    <i class="fa-brands fa-instagram"></i></a>
+                                <a class="facebook" href="https://wa.me/7492029619" target="_blank"> <i
+                                        class="fa-brands fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-7 col-sm-12 col-12 about_right_section">
+                        <div class="about_right_box">
+                            <h3 class="about_heading">I'M Ankul Kushwaha</h3>
+                            <p class="about_sub_heading">I'M <span class="color_orange">FrontEnd Developer</span> and
+                                <span class="color_orange">Web Designer</span> at Gomilestone Pvt. Ltd.
+                            </p>
+
+                            <p class="about_text">We specialize in creating visually striking
+                                and user-friendly websites that captivate audiences and elevate brands. Our team of
+                                expert designers focuses on crafting custom designs that align with your vision and
+                                business objectives. We prioritize responsive design, ensuring your site looks great and
+                                functions seamlessly across all devices. Whether you’re launching a new website or
+                                redesigning an existing one, we collaborate closely with you to deliver a tailored
+                                solution that meets your unique needs. Our goal is to provide an exceptional online
+                                experience that helps your business stand out and succeed in the digital world.
+                            </p>
+
+                        </div>
+                        <div class="row about-list">
+                            <div class="col-md-6">
+                                <div class="media">
+                                    <label>Name</label>
+                                    <p>Ankul Kushwaha</p>
+                                </div>
+                                <div class="media">
+                                    <label>Phone</label>
+                                    <a href="tel:7492029619">+91 7492029619</a>
+                                </div>
+                                <div class="media">
+                                    <label>Birthday</label>
+                                    <p>03/02/2004</p>
+                                </div>
+                                <div class="media">
+                                    <label>Address</label>
+                                    <p>Gurugram, Haryana (122001)</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="media">
+                                    <label>E-mail</label>
+                                    <a href="mailto:kushwahaankul42@gmail.com">kushwahaankul42@gmail.com</a>
+                                </div>
+                                <div class="media">
+                                    <label>Age</label>
+                                    <p>21</p>
+                                </div>
+                                <div class="media">
+                                    <label>Nationality</label>
+                                    <p>India</p>
+                                </div>
+                                <div class="media">
+                                    <label>Freelance</label>
+                                    <p>Available</p>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <h3 class="education_heading">EDUCATION</h3>
+                            </div>
+                            <div class="col-md-4  col-sm-6 col-12">
+                                <div class="Education_box">
+                                    <h3>BCA</h3>
+                                    <p>Radha Govind University</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4  col-sm-6 col-12">
+                                <div class="Education_box">
+                                    <h3>Senior Secondary</h3>
+                                    <p>PT.D.D.U Inter College</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4  col-sm-6 col-12">
+                                <div class="Education_box">
+                                    <h3>Higher Secondary</h3>
+                                    <p>U.M.V. Amarpura Jogiraha</p>
+                                </div>
+                            </div>
+                            <div class="col-md-8  col-sm-6 col-12">
+                                <div class="Education_box">
+                                    <h3>DCA</h3>
+                                    <p>Diploma in Computer Application</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <div class="download_cv">
+                            <a class="btn_cv" href="./assets/image/Ankul-kumar.pdf" download>
+                                <i class="fa fa-download"></i> DOWNLOAD MY CV
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_skills_section Ac_menu" id="skill">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="sub_heading_box">
+                            <h2 class="sub_heading"><span class="heading_border">My Sk</span>ills</h2>
+                            <p class="sub_text">Below are the Skills and Technologies in which I am comfortable and
+                                have
+                                experience in Real world projects.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6" data-aos="fade-right" data-aos-duration="2000">
+                        <div class="ce_ixelgen_progress_bar progress_bar_left">
+                            <div class="progress_bar">
+                                <div class="progress_bar_item grid-x">
+                                    <div class="item_label cell auto">HTML/HTML5</div>
+                                    <div class="item_value cell shrink">0%</div>
+                                    <div class="item_bar cell">
+                                        <div class="progress" data-progress="100"></div>
+                                    </div>
+                                </div>
+                                <div class="progress_bar_item grid-x">
+                                    <div class="item_label cell auto">Bootstrap</div>
+                                    <div class="item_value cell shrink">0%</div>
+                                    <div class="item_bar cell">
+                                        <div class="progress" data-progress="100"></div>
+                                    </div>
+                                </div>
+                                <div class="progress_bar_item grid-x">
+                                    <div class="item_label cell auto">Javascript/JQuery</div>
+                                    <div class="item_value cell shrink">0%</div>
+                                    <div class="item_bar cell">
+                                        <div class="progress" data-progress="50"></div>
+                                    </div>
+                                </div>
+
+                                <div class="progress_bar_item grid-x">
+                                    <div class="item_label cell auto">Photoshop</div>
+                                    <div class="item_value cell shrink">0%</div>
+                                    <div class="item_bar cell">
+                                        <div class="progress" data-progress="60"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" data-aos="fade-left" data-aos-duration="2000">
+                        <div class="ce_ixelgen_progress_bar progress_bar_right">
+                            <div class="progress_bar">
+                                <div class="progress_bar_item grid-x">
+                                    <div class="item_label cell auto">CSS3/SASS</div>
+                                    <div class="item_value cell shrink">0%</div>
+                                    <div class="item_bar cell">
+                                        <div class="progress" data-progress="100"></div>
+                                    </div>
+                                </div>
+                                <div class="progress_bar_item grid-x">
+                                    <div class="item_label cell auto">WordPress</div>
+                                    <div class="item_value cell shrink">0%</div>
+                                    <div class="item_bar cell">
+                                        <div class="progress" data-progress="90"></div>
+                                    </div>
+                                </div>
+                                <div class="progress_bar_item grid-x">
+                                    <div class="item_label cell auto">Media Query</div>
+                                    <div class="item_value cell shrink">0%</div>
+                                    <div class="item_bar cell">
+                                        <div class="progress" data-progress="100"></div>
+                                    </div>
+                                </div>
+                                <div class="progress_bar_item grid-x">
+                                    <div class="item_label cell auto">React Js</div>
+                                    <div class="item_value cell shrink">0%</div>
+                                    <div class="item_bar cell">
+                                        <div class="progress" data-progress="50"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_service_section Ac_menu" id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="sub_heading_box">
+                            <h2 class="sub_heading"><span class="heading_border">My Se</span>rvices</h2>
+                            <p class="sub_text">I offer custom web design, responsive layouts, and seamless user
+                                interfaces to enhance your online presence. From creating visually appealing websites to
+                                ensuring smooth navigation, my services are designed to deliver an exceptional user
+                                experience, optimized for performance and mobile devices, driving engagement and
+                                conversions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="col-md-6 col-lg-4 col-sm-6 col-12">
+                        <div class="service_main_box">
+                            <div class="service_box">
+                                <div class="service_img_box">
+                                    <img class="show_img" src="./assets/image/warehouse.png" alt="image">
+                                    <img class="hide_img" src="./assets/image/warehouse1.png" alt="image">
+                                </div>
+                                <h3>Website Designer</h3>
+                                <p>
+                                    A website designer creates visually appealing and functional websites, focusing on
+                                    layout, user experience, and design elements. They use tools like HTML, CSS, and
+                                    JavaScript to build responsive, user-friendly sites. Collaborating with clients,
+                                    they ensure the website aligns with brand goals while being optimized for different
+                                    devices and platforms.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-sm-6 col-12">
+                        <div class="service_main_box">
+                            <div class="service_box">
+                                <div class="service_img_box">
+                                    <img class="show_img" src="./assets/image/smartphone.png" alt="image">
+                                    <img class="hide_img" src="./assets/image/smartphone1.png" alt="image">
+                                </div>
+                                <h3>Different Layout</h3>
+                                <p>Different layouts in website design include grid, single-page, magazine, and
+                                    asymmetrical layouts. Grid layouts use structured rows and columns for organization.
+                                    Single-page layouts display content on one scrollable page. Magazine layouts focus
+                                    on content-heavy, multi-column designs.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-sm-6 col-12">
+                        <div class="service_main_box">
+                            <div class="service_box">
+                                <div class="service_img_box">
+                                    <img class="show_img" src="./assets/image/programming.png" alt="image">
+                                    <img class="hide_img" src="./assets/image/programming1.png" alt="image">
+                                </div>
+                                <h3>FrontEnd Developer</h3>
+                                <p>
+                                    A Front-End Developer creates the visual and interactive aspects of a website or
+                                    application. They use HTML, CSS, and JavaScript to build user interfaces, ensuring a
+                                    seamless and responsive experience. Front-End Developers work closely with designers
+                                    and back-end developers to bring the client-side design to life.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="row" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="col-md-6 col-lg-4 col-sm-6 col-12">
+                        <div class="service_main_box">
+                            <div class="service_box">
+                                <div class="service_img_box">
+                                    <img class="show_img" src="./assets/image/responsive1.png" alt="image">
+                                    <img class="hide_img" src="./assets/image/responsive.png" alt="image">
+                                </div>
+                                <h3>Responsive Website</h3>
+                                <p>
+                                    A responsive website adapts to different screen sizes and devices, ensuring a
+                                    seamless user experience. Using HTML for structure and CSS for layout, media queries
+                                    adjust styles based on device characteristics. This approach ensures content remains
+                                    readable and accessible, whether on a desktop, tablet, or mobile phone.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-sm-6 col-12">
+                        <div class="service_main_box">
+                            <div class="service_box">
+                                <div class="service_img_box">
+                                    <img class="show_img" src="./assets/image/tools.png" alt="image">
+                                    <img class="hide_img" src="./assets/image/tools1.png" alt="image">
+                                </div>
+                                <h3>Advanced Options</h3>
+                                <p>
+                                    Advanced options for Front-End Developers include utilizing frameworks like React,
+                                    JavaScript, or Vue for efficient development. Incorporating CSS preprocessors like
+                                    SASS
+                                    or LESS, and using build tools such as Webpack or Gulp streamline workflows.
+                                    Implementing responsive design, progressive web apps (PWAs), and performance
+                                    optimization techniques ensure high-quality user experiences.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-sm-6 col-12">
+                        <div class="service_main_box">
+                            <div class="service_box">
+                                <div class="service_img_box">
+                                    <img class="show_img" src="./assets/image/bubble-chat.png" alt="image">
+                                    <img class="hide_img" src="./assets/image/bubble-chat1.png" alt="image">
+                                </div>
+                                <h3>Make it Simple</h3>
+                                <p>
+                                    In website design, keeping it simple means focusing on clean layouts, easy
+                                    navigation, and clear content. Use minimal colors, simple fonts, and intuitive
+                                    design elements to enhance user experience. Avoid clutter, ensuring the website is
+                                    visually appealing, fast, and accessible on all devices. Prioritize functionality
+                                    over complexity.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <div class="service_btn">
+                            <a class="btn_cv" href="./assets/image/Ankul-kumar.pdf" download>
+                                <i class="fa fa-download"></i> DOWNLOAD MY CV
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="counter_area">
+            <div class="container">
+                <div class="row" id="counter" data-aos="zoom-in" data-aos-duration="2000">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="single-counter">
+                            <div class="counter-contents">
+                                <h2>
+                                    <span class="counter-number" data-number="10">2</span>
+                                    <span>+</span>
+                                </h2>
+                                <h3 class="counter-heading">Years of Experience</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="single-counter Complete_border">
+                            <div class="counter-contents">
+                                <h2>
+                                    <span class="counter-number" data-number="500">25</span>
+                                    <span>+</span>
+                                </h2>
+                                <h3 class="counter-heading">Complete Projects</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="single-counter">
+                            <div class="counter-contents">
+                                <h2>
+                                    <span class="counter-number" data-number="1000">30</span>
+                                    <span>+</span>
+                                </h2>
+                                <h3 class="counter-heading">Happy Customers</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="single-counter border_right">
+                            <div class="counter-contents">
+                                <h2>
+                                    <span class="counter-number" data-number="50">95%</span>
+                                    <span>+</span>
+                                </h2>
+                                <h3 class="counter-heading">Client Rentention</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="chooseUs_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="sub_heading_box">
+                            <h2 class="sub_heading"><span class="heading_border">Our C</span>hoose Us</h2>
+                            <p class="sub_text">
+                                Choose us for innovative designs, seamless user experiences, and responsive websites. We
+                                prioritize quality, fast load times, and exceptional customer support, ensuring your
+                                online presence stands out and drives success.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6" data-aos="fade-right" data-aos-duration="2000">
+                        <div class="choose_left_box">
+                            <h3 class="about_heading">We Are Specialists <span style="color: #ef3016;">For Web</span>
+                                Solutions</h3>
+                            <p class="about_text">
+                                We are specialists in providing tailored web solutions, from custom website design to
+                                seamless development and digital marketing strategies. Our expertise ensures responsive,
+                                user-friendly websites that drive engagement, enhance performance, and deliver results.
+                                Trust us to create impactful online experiences that help your business thrive in the
+                                digital world.
+                            </p>
+                            <div class="services_box">
+                                <div class="choose-item">
+                                    <i class="far fa-check-double"></i>
+                                    <h6>Website Designer</h6>
+                                </div>
+                                <div class="choose-item">
+                                    <i class="far fa-check-double"></i>
+                                    <h6>FrontEnd Developer</h6>
+                                </div>
+                                <div></div>
+                                <div class="choose-item">
+                                    <i class="far fa-check-double"></i>
+                                    <h6>SEO Optimization</h6>
+                                </div>
+                                <div class="choose-item">
+                                    <i class="far fa-check-double"></i>
+                                    <h6>Quality Services</h6>
+                                </div>
+                                <div class="choose-item">
+                                    <i class="far fa-check-double"></i>
+                                    <h6>E-Commerce Website</h6>
+                                </div>
+                                <div class="choose-item">
+                                    <i class="far fa-check-double"></i>
+                                    <h6>Landing Page</h6>
+                                </div>
+                                <div class="choose-item">
+                                    <i class="far fa-check-double"></i>
+                                    <h6>Blogging Website</h6>
+                                </div>
+                                <div class="choose-item">
+                                    <i class="far fa-check-double"></i>
+                                    <h6>Full Static/Dynamic Website</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" data-aos="fade-left" data-aos-duration="2000">
+                        <div class="choose_right_box">
+                            <img src="./assets/image/choose-img.png" alt="Services image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="main_project_section Ac_menu" id="project">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="sub_heading_box">
+                            <h2 class="sub_heading"><span class="heading_border">My Po</span>rtfolio</h2>
+                            <p class="sub_text">Below are the Skills and Technologies in which I am comfortable and
+                                have
+                                experience in Real world projects.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <div class="row" data-aos="fade-up"
+                    data-aos-duration="2000">
+                        <div class="col-md-4 col-lg-3 col-sm-6 col-12">
+                            <div class="portfolio_img_box">
+                                <img class="portfolio_img" src="./assets/image/site33-gomilestone.png"
+                                    alt="GRO Capital Portfolio image">
+                                <div class="hide_contant">
+                                    <h4>U GRO Capital</h4>
+                                    <a target="_blank" href="https://site33.gomilestone.com"><i class="fa fa-link"
+                                            aria-hidden="true"></i> Visit</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-sm-6 col-12">
+                            <div class="portfolio_img_box">
+                                <img class="portfolio_img" src="./assets/image/thecrunchburger.png"
+                                    alt="The Crunct Burger Portfolio image">
+                                <div class="hide_contant">
+                                    <h4>The Crunct Burger</h4>
+                                    <a target="_blank" href="https://thecrunchburger.com"><i class="fa fa-link"
+                                            aria-hidden="true"></i> Visit</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-sm-6 col-12">
+                            <div class="portfolio_img_box">
+                                <img class="portfolio_img" src="./assets/image/meetxoli.png"
+                                    alt="Meet Xoli Portfolio image">
+                                <div class="hide_contant">
+                                    <h4>Meet Xoli</h4>
+                                    <a target="_blank" href="https://meetxoli.com"><i class="fa fa-link"
+                                            aria-hidden="true"></i>
+                                        Visit</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-sm-6 col-12">
+                            <div class="portfolio_img_box">
+                                <img class="portfolio_img" src="./assets/image/Sona-Construction.png"
+                                    alt="Sona Vibrators Portfolio image">
+                                <div class="hide_contant">
+                                    <h4>Sona Vibrators</h4>
+                                    <a target="_blank" href="https://www.sonavibrators.com/"><i class="fa fa-link"
+                                            aria-hidden="true"></i> Visit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" data-aos="fade-up"
+                    data-aos-duration="2000">
+                        <div class="col-md-4 col-lg-3 col-sm-6 col-12">
+                            <div class="portfolio_img_box">
+                                <img class="portfolio_img" src="./assets/image/rajdhanipolymers.net.png"
+                                    alt="Rajdhani Polymers Portfolio">
+                                <div class="hide_contant">
+                                    <h4>Rajdhani Polymers</h4>
+                                    <a target="_blank" href="https://www.rajdhanipolymers.net"><i class="fa fa-link"
+                                            aria-hidden="true"></i> Visit</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-sm-6 col-12">
+                            <div class="portfolio_img_box">
+                                <img class="portfolio_img" src="./assets/image/opine-gomilestone.png"
+                                    alt="Opine Portfolio">
+                                <div class="hide_contant">
+                                    <h4>Opine</h4>
+                                    <a target="_blank" href="https://opine.gomilestone.com"><i class="fa fa-link"
+                                            aria-hidden="true"></i> Visit</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-sm-6 col-12">
+                            <div class="portfolio_img_box">
+                                <img class="portfolio_img" src="./assets/image/site10-gomilestone.png"
+                                    alt="Dynemech Portfolio ">
+                                <div class="hide_contant">
+                                    <h4>Dynemech</h4>
+                                    <a target="_blank" href="https://site10.gomilestone.com"><i class="fa fa-link"
+                                            aria-hidden="true"></i> Visit</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-lg-3 col-sm-6 col-12">
+                            <div class="portfolio_img_box">
+                                <img class="portfolio_img" src="./assets/image/humblebake.png"
+                                    alt="humble bake Portfolio image">
+                                <div class="hide_contant">
+                                    <h4>humble bake</h4>
+                                    <a target="_blank" href="https://humblebake.com"><i class="fa fa-link"
+                                            aria-hidden="true"></i> Visit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="more">Show more</div>
+                        <div class="less">Show less</div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+        <div class="main_contact_section Ac_menu" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="sub_heading_box">
+                            <h2 class="sub_heading"><span class="heading_border">Cont</span>act Us</h2>
+                            <p class="sub_text">
+                                Contact us today for personalized web solutions, expert advice, and prompt support.
+                                We’re here to help you create, optimize, and grow your online presence. Let’s bring your
+                                vision to life!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-lg-8 col-sm-12 col-12 mb_margin" data-aos="fade-right" data-aos-duration="2000">
+                        <div class="contact_left_box">
+                            <h3>Get In Touch</h3>
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="input_box">
+                                            <input type="text" name="name" required id="name" placeholder="Enter Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input_box">
+                                            <input type="email" name="email" required id="email"
+                                                placeholder="Enter Email-ID">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input_box">
+                                            <input type="number" name="number" required id="number"
+                                                placeholder="Enter Number">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="input_box">
+                                            <textarea name="message" id="message" required
+                                                placeholder="Enter Your Message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div>
+                                            <button type="submit" class="btn_cv">SEND MESSAGE</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-lg-4 col-sm-12 col-12" data-aos="fade-left" data-aos-duration="2000">
+                        <div class="contact_left_box">
+                            <h3>Contact Information</h3>
+                            <div class="contact_d_box">
+                                <i class="fa fa-phone contact_icon" aria-hidden="true"></i>
+                                <div class="number_box">
+                                    <p>Phone Number</p>
+                                    <a href="tel:7492029619">+91 7492029619</a>
+                                </div>
+                            </div>
+                            <div class="contact_d_box">
+                                <i class="fa fa-envelope contact_icon" aria-hidden="true"></i>
+                                <div class="number_box">
+                                    <p>Email-ID</p>
+                                    <a href="mailto:kushwahaankul42@gmail.com">kushwahaankul42@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact_d_box">
+                                <i class="fa-solid fa-location-dot contact_icon "></i>
+                                <div class="number_box">
+                                    <p>Current Address</p>
+                                    <p class="location_text">Vijay Vihar, Sector 30, Gurugram Haryana (122001)</p>
+                                </div>
+                            </div>
+                            <div class="contact_d_box">
+                                <i class="fa-solid fa-location-dot contact_icon"></i>
+                                <div class="number_box">
+                                    <p>Permanent Address</p>
+                                    <p class="location_text">Banjariya Amarpura, Gopalganj Bihar (841423)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_section">
+            <div class="container">
+                <div class="row" data-aos="fade-up"
+                data-aos-duration="2000">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="footer_left_box">
+                            <a href="#home" class="logo_show">
+                                <img src="./assets/image/ak-logo.svg" alt="footer logo">
+                                <div class="logo_text_box">
+                                    <h3>Ankul Kushwaha</h3>
+                                    <p>FrontEnd Developer</p>
+                                </div>
+                            </a>
+                            <p class="footer_left_text">
+                                As specialist website designers, we craft unique, visually stunning, and highly
+                                functional websites.
+                            </p>
+                            <div class="footer_icon">
+                                <a target="_blank" class="footer_left_icon"
+                                    href="https://www.facebook.com/profile.php?id=100070726360153&mibextid">
+                                    <img src="./assets/image/facebook.png" alt="facebook icon">
+                                </a>
+                                <a target="_blank" class="footer_left_icon"
+                                    href="https://www.linkedin.com/in/ankul-kushwaha-86a242308">
+                                    <img src="./assets/image/linkedin.png" alt="linkedin icon">
+                                </a>
+                                <a target="_blank" class="footer_left_icon"
+                                    href="https://www.instagram.com/ankul_kushwaha42">
+                                    <img src="./assets/image/instagram1.png" alt="instagram icon">
+                                </a>
+                                <a target="_blank" class="footer_left_icon" href="https://wa.me/7492029619">
+                                    <img src="./assets/image/whatsapp.png" alt="whatsapp icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 col-sm-5 col-12">
+                        <div class="footer_center_box">
+                            <h3>Quick Link</h3>
+                            <ul class="footer_menu">
+                                <li>
+                                    <a href="#home"><i class="fa fa-chevron-right footer_arrow" aria-hidden="true"></i>
+                                        Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#about"><i class="fa fa-chevron-right footer_arrow" aria-hidden="true"></i>
+                                        About
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#skill"><i class="fa fa-chevron-right footer_arrow" aria-hidden="true"></i>
+                                        Skills </a>
+                                </li>
+                                <li>
+                                    <a href="#services"><i class="fa fa-chevron-right footer_arrow"
+                                            aria-hidden="true"></i>
+                                        Service </a>
+                                </li>
+                                <li>
+                                    <a href="#project"><i class="fa fa-chevron-right footer_arrow"
+                                            aria-hidden="true"></i>
+                                        Projects </a>
+                                </li>
+                                <li>
+                                    <a href="#contact"><i class="fa fa-chevron-right footer_arrow"
+                                            aria-hidden="true"></i>
+                                        Contact </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-5 col-sm-7 col-12">
+                        <div class="footer_right_box">
+                            <h3>Contact Us</h3>
+                            <ul class="footer_menu">
+                                <li>
+                                    <a href="tel:7492029619"><i class="fa fa-phone footer_right_icon"
+                                            aria-hidden="true"></i> +91 7492029619
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:kushwahaankul42@gmail.com"><i
+                                            class="fa fa-envelope footer_right_icon" aria-hidden="true"></i>
+                                        kushwahaankul42@gmail.com
+                                    </a>
+                                </li>
+                                <li>
+                                    <p><i class="fa-solid fa-location-dot footer_right_icon "></i>
+                                        Vijay Vihar, Sector 30, Gurugram Haryana (122001) </p>
+                                </li>
+                                <li>
+                                    <p><i class="fa-solid fa-location-dot footer_right_icon "></i>
+                                        Banjariya Amarpura, Gopalganj Bihar (841423) </p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
