@@ -1477,6 +1477,7 @@ a.my_cv_btn {
 
     .main_skills_section {
         padding: 65px 10px 45px 10px;
+        overflow: hidden;
     }
 
     .progress_bar_left {
@@ -1548,6 +1549,7 @@ a.my_cv_btn {
 
     .main_contact_section {
         padding: 65px 10px 55px 10px;
+        overflow: hidden;
     }
 
     .mb_margin {
