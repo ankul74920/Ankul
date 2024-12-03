@@ -1260,6 +1260,10 @@ a.my_cv_btn {
     content: none !important;
 }
 
+.position_fixed{
+    display: none;
+}
+
 @media (max-width:1000px) {
     .web-view {
         display: none;
@@ -1473,6 +1477,31 @@ a.my_cv_btn {
 
     .about_ledt_box {
         margin-bottom: 30px;
+    }
+
+    .position_fixed{
+        position: fixed;
+        top: 50%;
+        transform: translate(-0%, -50%);
+        right: 0px;
+        background-color: #ffffff;
+        flex-direction: column;
+        display: flex !important;
+        padding-left: 15px;
+        padding-right: 10px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        display: block;
+        left: initial;
+    }
+    .about_link_box .facebook {
+        padding: 7px;
+        margin-bottom: 15px;
+    }
+    .whats_app{
+        font-size: 22px !important;
     }
 
     .main_skills_section {
