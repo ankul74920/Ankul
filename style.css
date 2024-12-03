@@ -1613,6 +1613,10 @@ a.my_cv_btn {
         height: auto;
     }
 
+    .logo_text_box h3{
+        font-size: 22px;
+    }
+
     .home_left_section div h3 {
         font-size: 22px;
     }
