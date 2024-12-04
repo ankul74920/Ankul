@@ -771,7 +771,7 @@
                         data-aos-duration="2000">
                         <div class="contact_left_box">
                             <h3>Get In Touch</h3>
-                            <form action="https://api.web3forms.com/submit" method="POST">
+                            <form action="https://api.web3forms.com/submit" method="POST" id="form">
                                 <div class="row">
                                     <input type="hidden" name="access_key" value="d38c45a2-da89-4f21-9c0a-f8b621473522">
                                     <div class="col-md-6">
@@ -796,12 +796,14 @@
                                             <textarea name="message" id="message" required
                                                 placeholder="Enter Your Message"></textarea>
                                         </div>
+                                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
                                     </div>
                                     <div class="col-md-12">
                                         <div>
                                             <button type="submit" class="btn_cv">SEND MESSAGE</button>
                                         </div>
                                     </div>
+                                    <div id="result"></div>
                                 </div>
                             </form>
                         </div>

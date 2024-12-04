@@ -998,6 +998,14 @@ body {
     line-height: 22px;
     margin-top: 5px;
 }
+#result {
+    font-family: 'Futura Md BT';
+    font-size: 18px;
+    color: #002b58;
+    margin: 0;
+    line-height: 22px;
+    margin-top: 5px;
+}
 
 .number_box a:hover {
     color: #002b58 !important;
