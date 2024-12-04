@@ -1004,7 +1004,8 @@ body {
     color: #002b58;
     margin: 0;
     line-height: 22px;
-    margin-top: 5px;
+    margin-top: 10px;
+    padding-left: 15px;
 }
 
 .number_box a:hover {
