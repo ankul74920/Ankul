@@ -1307,7 +1307,7 @@ a.my_cv_btn {
         transform: inherit !important;
         left: 0px !important;
         top: 5px !important;
-        height: 100% !important;
+        height: calc(100vh - 70px) !important;
         border-radius: 0px;
         overflow: scroll;
         border-top-right-radius: 20px;
@@ -1492,7 +1492,7 @@ a.my_cv_btn {
         position: fixed;
         top: 60%;
         transform: translate(-0%, -50%);
-        right: 0px;
+        right: -1px;
         background-color: #ffffff;
         flex-direction: column;
         display: flex !important;
