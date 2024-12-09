@@ -15,6 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -100,7 +101,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-2 col-2 text-right">
-                        <div id="mySidenav" class="sidenav">
+                        <div id="mySidenav" class="sidenav" onclick="closeNav()">
                             <div class="responsive-menu-box sidebar-second-container">
                                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
@@ -518,11 +519,12 @@
         <section class="counter_area">
             <div class="container">
                 <div class="row" id="counter" data-aos="zoom-in" data-aos-duration="2000">
+                    
                     <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                         <div class="single-counter">
                             <div class="counter-contents">
                                 <h2>
-                                    <span class="counter-number" data-number="10">2</span>
+                                    <span class="counter-number count percent" data-count="2">0</span>
                                     <span>+</span>
                                 </h2>
                                 <h3 class="counter-heading">Years of Experience</h3>
@@ -534,7 +536,7 @@
                         <div class="single-counter Complete_border">
                             <div class="counter-contents">
                                 <h2>
-                                    <span class="counter-number" data-number="500">25</span>
+                                    <span class="counter-number count percent" data-count="25">0</span>
                                     <span>+</span>
                                 </h2>
                                 <h3 class="counter-heading">Complete Projects</h3>
@@ -545,7 +547,7 @@
                         <div class="single-counter">
                             <div class="counter-contents">
                                 <h2>
-                                    <span class="counter-number" data-number="1000">30</span>
+                                    <span class="counter-number count percent" data-count="30">0</span>
                                     <span>+</span>
                                 </h2>
                                 <h3 class="counter-heading">Happy Customers</h3>
@@ -556,8 +558,8 @@
                         <div class="single-counter border_right">
                             <div class="counter-contents">
                                 <h2>
-                                    <span class="counter-number" data-number="50">95%</span>
-                                    <span>+</span>
+                                    <span class="counter-number count percent" data-count="95">0</span>
+                                    <span>%</span>
                                 </h2>
                                 <h3 class="counter-heading">Client Rentention</h3>
                             </div>
