@@ -1460,6 +1460,9 @@ a.my_cv_btn {
     .mb_margin {
         margin-bottom: 30px;
     }
+    .about_ledt_box img{
+        height: auto !important;
+    }
 }
 
 @media (max-width: 767px) {
